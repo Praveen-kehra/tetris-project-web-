@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Tetris Game JS</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1>Tetris Game... </h1>
+    <!-- <hr> -->
+    <div id="over">
+        <p>Game Over !!!</p>
+        <p>Score: <span id ="finalScore">0</span></p>
+        <button id= "reload"><strong>x</strong></button>
+        <!-- ↻ -->
+    </div>
+    <div id="container">
+        
+        <canvas id="tetris" width="200" height="400"></canvas>
+        <hr>
+        <div style="display: inline; margin-top: 2px;">
+            <p style="display: inline;">Score :</p>
+            <div id="score">0</div>
+        </div>
+        <button style="display: inline;" id="start"><span>Play</span></button>
+    </div>
+
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+</body>
+
+</html>
